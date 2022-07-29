@@ -158,7 +158,7 @@ void loop() {
         previousMillis = currentMillis;
 
 
-        updateSensorLevel(3);
+        updateSensorLevel(75);
         Serial.println("");
       }
     }
