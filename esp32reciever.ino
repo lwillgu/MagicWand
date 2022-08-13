@@ -23,7 +23,7 @@ const char* password = "NetworkPassword";
 // This part enables you to perform the same action to both turn on a device and turn 
 // off the device
 // 
-// 1. Enter the names of the devices you would like to turn on or off instead of light or fan in // lightstatus and fanstatus.
+// 1. Enter the names of the devices you would like to turn on or off instead of light or fan in strings "lightstatus" and "fanstatus".
 //______________________________________________________________________
 String lightstatus = "off";
 String fanstatus = "off";
@@ -139,7 +139,8 @@ Serial.println(myString);
  // on or off.
 //
 // You need to change this code to work for the gestures you have created, because this could
-// be so dynamic, you are on your own. ______________________________________________________________________
+// be so dynamic, you are on your own. 
+//______________________________________________________________________
 
 
  if(myString == "0"){
