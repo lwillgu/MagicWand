@@ -12,7 +12,7 @@
 // Go to the file that you downloaded from Google's Tiny Motion Trainer. 
 // Find #define MOTION_THRESHOLD 0.2 copy until (including) NUM_SAMPLES. 
 //It should be 3 lines
-//Past it here
+//Paste it here
 //______________________________________________________________________
 
 
@@ -24,7 +24,7 @@
 // Go to the file that you downloaded from Google's Tiny Motion Trainer. 
 // Find Const char *GESTURES[] = .... and copy until(including) '};'. 
 //It should be 3 lines
-//Past it here
+//Paste it here
 //______________________________________________________________________
 
 
