@@ -95,7 +95,7 @@ void setup() {
   weatherChar.writeValue(oldSensorLevel); // set initial value for this characteristic
 
   BLE.advertise();
-  Saerial.println("Bluetooth® device active, waiting for connections...");
+  Serial.println("Bluetooth® device active, waiting for connections...");
 
 
 
